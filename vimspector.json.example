@@ -1,0 +1,13 @@
+{
+  "configurations": {
+    "cpp": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "request": "launch",
+        "program": "${fileDirname}/tetris",
+        "externalConsole": true,
+        "MiMode":"gdb"
+      }
+    }
+  }
+}
