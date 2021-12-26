@@ -9,6 +9,9 @@ set smarttab
 set softtabstop=4
 set mouse=a
 
+" requires xclip installed
+vnoremap <C-c> "+y
+
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/coc-conf.vim
 
